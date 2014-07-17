@@ -142,8 +142,8 @@
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-5" minValue="-15" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="4ND-HE-RO8">
-                                <rect key="frame" x="18" y="236" width="284" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-5" minValue="-15" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="4ND-HE-RO8">
+                                <rect key="frame" x="18" y="250" width="284" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -175,7 +175,7 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iconch preferences" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xc-ax-a9N">
-                                <rect key="frame" x="31" y="20" width="259" height="28"/>
+                                <rect key="frame" x="47" y="20" width="226" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -195,7 +195,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0078431377187371254" green="0.59607845544815063" blue="0.88235300779342651" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstItem="9Xc-ax-a9N" firstAttribute="leading" secondItem="tg4-aq-CMy" secondAttribute="leading" constant="31" id="3hD-aA-hk2"/>
+                            <constraint firstItem="4ND-HE-RO8" firstAttribute="leading" secondItem="tg4-aq-CMy" secondAttribute="leading" constant="20" id="1qq-Ct-u9D"/>
                             <constraint firstItem="Ytl-wq-BgZ" firstAttribute="bottom" secondItem="fe1-FK-M2x" secondAttribute="bottom" constant="-10" id="Cig-CY-cDw"/>
                             <constraint firstItem="goF-Nk-WhH" firstAttribute="top" secondItem="rCx-Hh-zb0" secondAttribute="bottom" constant="24" id="EPk-Va-hDL"/>
                             <constraint firstAttribute="centerX" secondItem="j0Z-qM-EyV" secondAttribute="centerX" id="FyK-7a-OpL"/>
@@ -203,10 +203,11 @@
                             <constraint firstItem="9Xc-ax-a9N" firstAttribute="top" secondItem="rBX-Xh-dAM" secondAttribute="bottom" id="IdW-ws-T8W"/>
                             <constraint firstItem="fe1-FK-M2x" firstAttribute="top" secondItem="9Xc-ax-a9N" secondAttribute="bottom" constant="24" id="Ip7-NL-NZK"/>
                             <constraint firstAttribute="trailing" secondItem="cbd-Sb-h2o" secondAttribute="trailing" constant="20" id="OUU-ft-0bO"/>
-                            <constraint firstAttribute="trailing" secondItem="9Xc-ax-a9N" secondAttribute="trailing" constant="30" id="WSD-K0-VhX"/>
+                            <constraint firstItem="4ND-HE-RO8" firstAttribute="top" secondItem="goF-Nk-WhH" secondAttribute="bottom" constant="22" id="U3m-Bz-hhY"/>
                             <constraint firstItem="cbd-Sb-h2o" firstAttribute="width" secondItem="Ytl-wq-BgZ" secondAttribute="width" id="ZZz-TC-S4J"/>
                             <constraint firstItem="rCx-Hh-zb0" firstAttribute="leading" secondItem="tg4-aq-CMy" secondAttribute="leading" constant="20" id="d80-3G-v5P"/>
                             <constraint firstAttribute="trailing" secondItem="rCx-Hh-zb0" secondAttribute="trailing" constant="20" id="dvW-n9-qGv"/>
+                            <constraint firstAttribute="trailing" secondItem="4ND-HE-RO8" secondAttribute="trailing" constant="20" id="fmJ-ui-SZY"/>
                             <constraint firstAttribute="centerX" secondItem="9Xc-ax-a9N" secondAttribute="centerX" id="fqB-yf-Xl4"/>
                             <constraint firstItem="cbd-Sb-h2o" firstAttribute="bottom" secondItem="goF-Nk-WhH" secondAttribute="bottom" id="krK-FB-VRL"/>
                             <constraint firstItem="rCx-Hh-zb0" firstAttribute="top" secondItem="fe1-FK-M2x" secondAttribute="bottom" constant="22" id="nD3-LW-tby"/>
