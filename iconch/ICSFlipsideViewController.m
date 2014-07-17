@@ -35,31 +35,6 @@
     self.badSoundSlider.value = _prefs.badSoundThreshold;
     self.goodSoundSlider.value = _prefs.goodSoundThreshold;
     
-    NSError *err = nil;
-    NSAttributedString* attributedText = [[NSAttributedString alloc]
-                                          initWithFileURL:[NSBundle.mainBundle URLForResource:@"Instructions" withExtension:@"rtf"]
-                                          options:nil
-                                          documentAttributes:nil
-                                          error:&err];
-    if (attributedText == nil ) {
-        NSLog(@"%@:  Errer reading instructions file: %@", NSStringFromSelector(_cmd), err);
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error"
-                                                            message:[err localizedDescription]
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil, nil];
-        [alertView show];
-        return;
-    }
-    self.instructions.attributedText = attributedText;
-    self.instructions.textColor = [UIColor whiteColor];
-///    self.instructions.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.0];
-    [self.instructions flashScrollIndicators];
-}
-
--(void) viewDidAppear:(BOOL)animated
-{
-    [self.instructions flashScrollIndicators];
 }
 
 - (void)didReceiveMemoryWarning

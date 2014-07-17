@@ -24,7 +24,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *badLabel;
 @property (weak, nonatomic) IBOutlet UILabel *goodLabel;
-@property (weak, nonatomic) IBOutlet UITextView *instructions;
 
 - (IBAction)badThresholdChanged:(id)sender;
 - (IBAction)goodThresholdChanged:(id)sender;

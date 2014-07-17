@@ -420,12 +420,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph Schwartz (8WWPRTAL38)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iconch/iconch-Prefix.pch";
 				INFOPLIST_FILE = "iconch/iconch-Info.plist";
 				PRODUCT_NAME = iconch;
-				PROVISIONING_PROFILE = "467D1078-A2E0-4559-B3EB-CD9D41F617E4";
+				PROVISIONING_PROFILE = "C32BF9CF-BAD1-4690-AB69-350B1EFF126A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -435,12 +435,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph Schwartz (8WWPRTAL38)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iconch/iconch-Prefix.pch";
 				INFOPLIST_FILE = "iconch/iconch-Info.plist";
 				PRODUCT_NAME = iconch;
-				PROVISIONING_PROFILE = "467D1078-A2E0-4559-B3EB-CD9D41F617E4";
+				PROVISIONING_PROFILE = "C32BF9CF-BAD1-4690-AB69-350B1EFF126A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

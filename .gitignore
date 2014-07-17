@@ -4,4 +4,5 @@
 *.lock
 *~.nib
 *.pbxuser
+*.xccheckout
 !default.pbxuser
